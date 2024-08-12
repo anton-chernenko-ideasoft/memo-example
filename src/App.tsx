@@ -48,6 +48,8 @@ const Button = ({
 function App() {
   const [count, setCount] = useState(0);
 
+  const a = 'test';
+
   return (
     <>
       <Button onClick={() => setCount((count) => count + 1)}>
